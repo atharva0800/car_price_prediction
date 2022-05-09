@@ -21,6 +21,7 @@
             
       </div>
     </div>
+    
 
      <style>
         
@@ -66,10 +67,140 @@
             <h3 id="prediction" style="color: teal; display: inline-block; border: 4px solid teal; width: 35%; border-radius: 20px; background-color: black; visibility: visible;">{{ prediction_text }}<h3> 
                 <button id="close" onclick="func()" style="border: 1px solid; background-color: grey; border-radius: 20px; justify-items: right; display: inline-block;">x</button>
             <h2>Enter your car details here</h2>
+        </select><br>
+        <h3>Choose the name of Car</h3><br><select name="Fuel_Type_Petrol" id="fuel" required="required">
+            <option disabled="disabled" selected="selected">--Choose Option--</option>
+           
+            <option> Maruti Suzuki: </option>
+
+            <option> Alto </option>
+            <option> Baleno </option> 
+            <option> Celerio </option>
+            <option> Ciaz </option>
+            <option> Dzire </option>
+            <option> Eeco </option>
+            <option> Ertiga </option>
+            <option> Ignis </option>
+            <option> S-Cross </option>
+            <option> S-Presso </option>
+            <option> Vitara Brezza </option>
+            <option> Swift </option>
+            <option> Wagon-R </option>
+            <option> XL6 </option>
+            <option> OTHER..... </option>
+            <option></option>
+
+            
+            <option> Hyundai: </option>
+            
+            <option> Creta </option>
+            <option> Elantra </option>
+            <option> Santro </option>
+            <option> Tucson </option>
+            <option> Venue </option>
+            <option> Verna </option>
+            <option> New i20 </option>
+            <option> Grand i10 Nios  </option>
+            <option> Grand i10 </option>
+            <option> Aura </option>
+            <option> Alcazar </option>
+            <option> OTHER..... </option>
+            <option></option>
+
+            <option> Tata : </option>
+            
+            <option> Nexon </option>
+            <option> Tiago </option>
+            <option> Tigor </option>
+            <option> Harrier </option>
+            <option> Altroz </option>
+            <option> Nexon </option>
+            <option> Safari </option>
+            <option> Tata Tigor Ziptron </option>
+            <option> OTHER..... </option>
+            <option></option>
+
+            <option> Honda: </option>
+            
+            <option> Amaze  </option>
+            <option> City </option>
+            <option> WR-V </option>
+            <option> Jazz </option>
+             <option> OTHER..... </option>
+             <option></option>
+
+            <option> Mahindra : </option>
+            
+            <option> Bolero </option>
+            <option> Marazzo </option>
+            <option> Scorpio </option>
+            <option> Thar  </option>
+            <option> Alturas G4  </option>
+            <option> XUV700- Full-Size SUV </option> 
+            <option> XUV 300- Compact SUV </option>
+            <option> KUV 100- Micro SUV </option>
+            <option> OTHER..... </option>
+            <option></option>
+            
+            <option> Renault : </option>
+            
+            <option> Kwid </option>
+            <option> Duster  </option>
+            <option> Triber </option>
+            <option> Kiger </option>
+            <option> OTHER..... </option>
+            <option></option>
+
+            <option> Volkswagen: </option>
+            
+            <option> Polo </option>
+            <option> Tiguan </option>
+            <option> T-ROC </option>
+            <option> Vento </option>
+            <option> Taigun </option>
+            <option> OTHER..... </option>
+            <option></option>
+
+            <option> Skoda : </option>
+            
+            <option> Rapid </option>
+            <option> Karoq </option>
+            <option> Kodiaq </option>
+            <option> Octavia </option>
+            <option> Superb </option>
+            <option> Kushaq </option>
+            <option> Slavia </option>
+            <option> OTHER..... </option>
+            <option></option>
+            
+            <option> Toyota : </option>
+            
+            <option> Camry </option>
+            <option> Fortuner </option>
+            <option> Glanza </option>
+            <option> Innova </option>
+            <option> Vellfire </option>
+            <option> Urban Cruiser </option>
+            <option> Hilux </option>
+            <option> OTHER..... </option>
+            <option></option>
+
+            <option> Kia : </option>
+            
+            <option> eltos  </option>
+            <option> Sonet </option>
+            <option> Carnival </option>
+            <option> Carens </option>
+            <option> OTHER..... </option>
+            <option></option>
+            
+
+        </select>
+            
             <h3>Year of buying</h3>
             
             <input id="first" name="Year" type="number" min="2000" max="2025" required="required" placeholder="Enter year in format yyyy" style="width: 25%;">
-            <h3>What is the Showroom Price?</h3><br><input id="second" name="Present_Price" required="required" type="number" min="1" max="50" step="any" placeholder="In lacs" style="width: 25%">
+            <h3>What is the  Price of the car?</h3><br><input id="second" name="Present_Price" required="required" type="number" min="1" max="50" step="any" placeholder="In lacs" style="width: 25%">
             <h3>How Many Kilometers Driven?</h3><input id="third" name="Kms_Driven" required="required" type="number" min="1000" max="300000" placeholder="In kms" style="width: 25%">
             <h3>What number of owner of the car you are?</h3><br><select id="fourth" name="Owner" required="required">
                 <option disabled="disabled" selected="selected">--Choose Option--</option>
