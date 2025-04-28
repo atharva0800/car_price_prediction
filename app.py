@@ -45,7 +45,7 @@ def predict():
         if output<0:
             return render_template('index.html',prediction_texts="Sorry you cannot sell this car")
         else:
-            return render_template('index.html',prediction_text="The car can be sold or bought at ₹ {a} to {b} lacs".format(a=((output*100000)- (output*100000)*0.1),b=(output*100000)))
+            return render_template('index.html',prediction_text="The car can be sold or bought at ₹ {:.2f} to ₹ {:.2f} lacs".format(output * 0.95, output * 1.1))
     else:
         return render_template('index.html')
 
